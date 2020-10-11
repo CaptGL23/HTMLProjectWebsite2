@@ -1,6 +1,7 @@
+/* Body Global */
 body{
   font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.5;
   padding: 0;
   margin: 0;
@@ -20,7 +21,8 @@ body{
   margin-right: auto;
   width: 30%;
 }
-/* Header*/
+
+/* Header Global*/
 header{
   background-color: #8a2be2;
   color: #ffffff;
@@ -44,7 +46,7 @@ header ul{
 header li{
   float: left;
   display: inline;
-  padding: 0 15px 0 15px
+  padding: 0 15px 0 15px;
 }
 
 header #branding{
@@ -57,7 +59,7 @@ header #branding h1{
 
 Header nav{
   float: right;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 header .highlight, header .current a{
@@ -70,9 +72,66 @@ header a:hover{
   font-weight: bold;
 }
 
-/* index.html section aboutme */
+/* index.html styling*/
 
-/* Footer */
+/* aboutme.html styling */
+
+/* simpleskills.html styling*/
+
+/* Opening secion */
+
+#opening iframe{
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Ingredients section */
+
+#ingredients h2{
+  border-top: 1px solid;
+  border-left: 3px solid;
+  padding-left: 1em;
+}
+
+#ingredients table{
+  width: 80%;
+}
+
+#ingredients th{
+  font-size: 21px;
+  height: 25px;
+}
+
+#ingredients td{
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+#ingredients table, th, td{
+  border: 2px solid #60219c;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Boxes */
+
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .column{
+  float: left;
+  width: 45%;
+  padding: 20px;
+}
+
+/* traveling.html styling*/
+
+/* myhobby.html styling*/
+
+/* Footer Global*/
+
 footer{
   padding: 20px;
   margin-top: 20px;
