@@ -8,6 +8,7 @@ body{
   background-color: #f0fff0;
 }
 
+
 /* Global */
 .container{
   width: 60%;
@@ -15,13 +16,15 @@ body{
   overflow: hidden;
 }
 
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
+#begin h1{
+  text-align: center;
+  border-bottom: #60219c 5px solid;
 }
 
+img{
+  width: 100%;
+  height: auto;
+}
 /* Header Global*/
 header{
   background-color: #8a2be2;
@@ -72,14 +75,102 @@ header a:hover{
   font-weight: bold;
 }
 
-/* index.html styling*/
 
-/* aboutme.html styling */
+/* index.html Styling*/
+/* Rows Secion*/
+#rows .column{
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 22px;
+  width: 33.33%;
+}
 
-/* simpleskills.html styling*/
+#rows .row::after{
+  content:"";
+  display: table;
+  clear: both;
+}
 
+#rows .column img{
+  width: 75%;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+
+/* aboutme.html Styling */
+/* Aboutme Section */
+#aboutme .grow{
+  padding-bottom: 15px;
+}
+
+#aboutme .grow h2{
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
+#aboutme .adult h2{
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
+#aboutme .center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-bottom: 15px;
+}
+
+/* Myhobbies Section*/
+#myhobbies{
+  padding-bottom: 15px;
+}
+
+#myhobbies h2{
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
+/* Hobbies Section */
+#hobbies{
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+#hobbies h2{
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
+#hobbies .hobby{
+  text-align: center;
+  float: left;
+  width: 25%;
+}
+
+#hobbies .hobby a{
+  color: #000000;
+  text-transform: uppercase;
+}
+
+#hobbies .hobby img{
+  width: 80%
+}
+/* simpleskills.html Styling*/
 /* Opening secion */
-
+#opening p{
+  font-size: 22px;
+}
 #opening iframe{
   display: block;
   width: 60%;
@@ -87,10 +178,10 @@ header a:hover{
 }
 
 /* Ingredients section */
-
 #ingredients h2{
-  border-top: 1px solid;
-  border-left: 3px solid;
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
   padding-left: 1em;
 }
 
@@ -109,13 +200,49 @@ header a:hover{
   padding: 5px;
 }
 #ingredients table, th, td{
-  border: 2px solid #60219c;
+  border: #60219c 2px solid;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
 }
-/* Boxes */
 
+/* Preparation Section */
+#preparation h2{
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
+#preparation li{
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Cooking Section */
+#cooking h2{
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
+#cooking li{
+  font-size: 22px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+#cooking .step{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 10px;
+}
+
+/* Boxes section */
 #boxes{
   margin-top: 20px;
 }
@@ -126,16 +253,24 @@ header a:hover{
   padding: 20px;
 }
 
+#boxes h2{
+  text-align: center;
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+  padding-left: 1em;
+}
+
 /* traveling.html styling*/
 
 /* myhobby.html styling*/
 
 /* Footer Global*/
-
 footer{
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
   background-color: #8a2be2;
   text-align: center;
+  border-top: #00FF00 5px solid;
 }
