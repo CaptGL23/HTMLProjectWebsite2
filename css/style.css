@@ -32,6 +32,7 @@ header{
   padding-top: 30px;
   min-height :70px;
   border-bottom: #00FF00 5px solid;
+  width: 100%;
 }
 
 header a{
@@ -161,6 +162,7 @@ header a:hover{
 #hobbies .hobby a{
   color: #000000;
   text-transform: uppercase;
+  font-size: 14px;
 }
 
 #hobbies .hobby img{
@@ -261,9 +263,70 @@ header a:hover{
   padding-left: 1em;
 }
 
-/* traveling.html styling*/
+/* traveling.html styling */
+/* Photos Section */
+.desc{
+  padding: 5px;
+  text-align: center;
+}
 
-/* myhobby.html styling*/
+.photos h2{
+  text-align: center;
+  border: #60219c 3px solid;
+  background-color: #00FF00;
+}
+
+.gallery{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px solid #cccccc;
+  float: left;
+  width: 32%;
+}
+
+.gallery:hover{
+  border: 5px solid #777777;
+}
+
+/* myhobby.html styling */
+/* description class */
+.description h2{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  border-top: #60219c 1px solid;
+  border-left: #60219c 3px solid;
+  border-right: #60219c 3px solid;
+}
+
+.description p{
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Gaming Section */
+#game1{
+  text-align: center;
+  display: block;
+  float: left;
+  width: 33.3333%;
+}
+
+/* Gaming2 Section */
+#game2{
+  text-align: center;
+  display: block;
+  float: right;
+  width: 33.3333%;
+}
+
+/* Video Section */
+
+.video1{
+  width: 100%;
+  margin-bottom: 15px;
+}
 
 /* Footer Global*/
 footer{
@@ -273,4 +336,10 @@ footer{
   background-color: #8a2be2;
   text-align: center;
   border-top: #00FF00 5px solid;
+}
+
+footer a{
+  float: right;
+  color: #ffffff;
+  text-decoration: none;
 }
