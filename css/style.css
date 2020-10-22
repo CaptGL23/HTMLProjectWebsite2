@@ -354,3 +354,7 @@ footer #back_top a{
   padding-right: 5px;
   margin-top: 18px;
 }
+
+#promote img:hover{
+  opacity: 0.5;
+}
