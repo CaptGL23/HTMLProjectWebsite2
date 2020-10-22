@@ -338,8 +338,19 @@ footer{
   border-top: #00FF00 5px solid;
 }
 
-footer a{
+footer #back_top a{
   float: right;
-  color: #ffffff;
+  color: #00FF00;
   text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 18px;
+}
+
+#promote img{
+  float: left;
+  max-width: 1.5em;
+  min-height: 1.5em;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 18px;
 }
