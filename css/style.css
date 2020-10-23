@@ -18,12 +18,16 @@ body{
 
 #begin h1{
   text-align: center;
-  border-bottom: #60219c 5px solid;
+  border-bottom: #8a2be2 5px solid;
 }
 
 img{
   width: 100%;
   height: auto;
+}
+
+p{
+  text-align: center;
 }
 /* Header Global*/
 header{
@@ -107,16 +111,16 @@ header a:hover{
 }
 
 #aboutme .grow h2{
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
 #aboutme .adult h2{
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
@@ -147,9 +151,9 @@ header a:hover{
 }
 
 #hobbies h2{
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
@@ -172,6 +176,9 @@ header a:hover{
 /* Opening secion */
 #opening p{
   font-size: 22px;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 1em;
 }
 #opening iframe{
   display: block;
@@ -181,14 +188,16 @@ header a:hover{
 
 /* Ingredients section */
 #ingredients h2{
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
 #ingredients table{
   width: 80%;
+  background-color: #8a2be2;
+  color: #ffffff;
 }
 
 #ingredients th{
@@ -202,7 +211,7 @@ header a:hover{
   padding: 5px;
 }
 #ingredients table, th, td{
-  border: #60219c 2px solid;
+  border: #000000 5px solid;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
@@ -210,9 +219,9 @@ header a:hover{
 
 /* Preparation Section */
 #preparation h2{
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
@@ -224,9 +233,9 @@ header a:hover{
 
 /* Cooking Section */
 #cooking h2{
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
@@ -250,16 +259,18 @@ header a:hover{
 }
 
 #boxes .column{
-  float: left;
-  width: 45%;
-  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
 }
 
 #boxes h2{
   text-align: center;
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
   padding-left: 1em;
 }
 
@@ -272,7 +283,7 @@ header a:hover{
 
 .photos h2{
   text-align: center;
-  border: #60219c 3px solid;
+  border: #8a2be2 3px solid;
   background-color: #00FF00;
 }
 
@@ -295,13 +306,12 @@ header a:hover{
   text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
-  border-top: #60219c 1px solid;
-  border-left: #60219c 3px solid;
-  border-right: #60219c 3px solid;
+  border-top: #8a2be2 1px solid;
+  border-left: #8a2be2 3px solid;
+  border-right: #8a2be2 3px solid;
 }
 
 .description p{
-  text-align: center;
   font-size: 25px;
 }
 
@@ -353,6 +363,7 @@ footer #back_top a{
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 18px;
+  border-radius: 15px 50px;
 }
 
 #promote img:hover{
